@@ -71,8 +71,7 @@ h1 {
 
 
 #dear{
-    margin: 0;
-    padding: 0;
+  padding-top: 5%;
   font-size: 200%;
   grid-area: dear;
 
