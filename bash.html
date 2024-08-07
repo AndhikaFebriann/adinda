@@ -1,82 +1,45 @@
-body {
-  background-color: #800020;
-  font-family: 'Shadows Into Light', cursive;
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> Love Letter </title>
+	<!-- css style sheet -->
+	<link href="css/bash.css" rel="stylesheet">
+	<!-- Tab icon -->
+    <link rel="icon" href="../img/CJM.png">
 
+
+
+</head>
+	
+<body>
+  <div class = "wrap">
+    <div class = "postcard">
+          <span id = "dear">My Dearest Adinda,</span>
+			<span id = "message"> Its been a couple weeks since we broke up but im still not over you. My reason for writing you this letter is because you were good to me, you inspired me and you made me want to be a better person. You made me believe i was special and it may be hard to tell but i miss you. You made me who i am. I think about you all the time. Even now when im sitting here writing this letter i still think about you. Some days i miss you so much that it hurts, i wake up remembering everything that happened between us and instantly rushing back to sleep because the pain doesnt hurt as much when i dream of you. You are every reason, every hope and every dream i have ever had and no matter what happens to us in the future, every day we are together is the greatest day of my life. We fell in love despite our differences and once we did, something rare and beautiful was created. For me, love like that has only happened once and thats why every minute we spent together has been seared in my memory. I will never forget a single moment of it. I miss the times we spent together. There are so many questions i want to ask you right now and so many things i wish i could say to you but sadly i cant. If i could tho, i would express how difficult it has been and how much i miss you. I miss the times we spent together. I miss your smile. I miss your wit. I want to tell you about how much you used to mean to me and how much you still do. I love you because i do truly love you. If i had the chance to say all these, i would in a heartbeat and in the finest of words too but i cant. Im used to speaking to you every day so this silence is killing me. I know if i text or call you wont answer. Every time i think im making progress, the next day i find myself crying over how much i love you and miss you. I keep checking my whatsapp and hoping for a message from you. I miss hearing about your day and the little things we used to share. But I respect your boundaries and im afraid to ask sometimes. I miss waking up to your good morning texts and saying goodnight to each other every day. I dont regret one second i spent with you. I guess thats the saddest part of what i got into. I cant say any of these to you and im not allowed to. Instead, im supposed to pretend that im doing fine without you. I ever heard that when we truly love someone, our greatest fear is that they would stop loving us one day, when in reality what we should fear is that we wont stop loving them even when they are gone. Im sorry for all the pain and heartache i caused you and for all the so many wrongs i did to you. Im sorry that i didnt completely understand that and made you feel bad. You were there for me and you never left my side and i will never forget that. Even tho we are very different, it felt like we had so much in common. I know you said you feel better off alone right now and i respect that. But it hurts me so much to see you so distant. Sometimes, memories of you flood my mind and i find myself crying and unable to sleep. Youre even in my dreams and it feels like i cant escape this. I will always be haunted by all the mistakes that led us to break up. Im blaming myself constantly for not being the boyfriend i shouldve been. I should have shown you the love you deserve and i know that im more than capable of showing you. You are an incredible person and i feel like im repeatedly stabbing myself in the chest by writing this letter because i dont want to think this is over. I love you so deeply. All the love that exists on the earth was given to me to feel for you. I would go back in time just to experience it again. I want you to know that i am always happy because of you. I wish i could show you how much this relationship means to me. I want to prove to you and myself that i can change. You and i were different. We came from different worlds and yet you were the one who taught me the value of love. You showed me what it was like to care for another and i am trying to be a better man because of it. We are so good together and i want us to be stronger together. I just want you to know that i will do everything and anything to make this work. I know how much we unconditionally love each other and we can get past this. I told you that i would keep a door open for you in case you change your mind. I love you and i would give up anything for you, i hope one day you realize how much i truly love you. How i was down for only you and no matter what you thought. I will and always be there for you.
+			<br>
+			<br>
+			<span id = "message"> My Bunny</span>
+			<br>
+			<span id = "message"> My Little Pony</span>
+			<br>
+			<span id = "message"> My Little Baby</span>
+			<br>
+			<span id = "message"> My Little Princess</span>
+			<br>
+			<span id = "message"> My Sleepy Princess</span>
+			<br>
+			<br>
+			Until we meet again, my love 
+			</span>
+			<span id= "mail" >
+				<img id= "mail_stamp" src = "img/stamp.png" alt="stamp" >
+				<span id= "from"> Andhika Febrian</span>
+			</span>  
+    </div>
+  </div>
   
-}
-.postcard{
-  /*grid for post card*/
-   display:grid;
-    grid-template-columns: .80fr .30fr ;
-    grid-template-rows: 1fr  1fr ;
-    grid-template-areas:
-    "dear stamp"
-    "note test";
-  background-color: #f7f7f7;
-  width: 850px;
-  height: 2020px;
-  margin: 0 auto;
-  margin-top: 5%;
-  border-radius: 2%;
-  padding: 2%;
-  padding-bottom: 12%;
-  box-shadow: .8em .8em 15px rgba(0,0,0,.3);
+  
 
-}
-
-h1 {
-  text-align: center;
-  color: #f7f7f7;
-  font-size: 300%;
-  margin-top: 0%;
-  margin-bottom: 0%;
-}
-
-#mail{
-  grid-area:stamp;
-  display:grid;
-    grid-template-columns:  1fr 1fr ;
-    grid-template-rows: 1fr ;
-    grid-template-areas:
-    "from stamps";
-}
-#mail_stamp {
-  max-width: 95%;
-  padding-left: 10%;
-  grid-area: stamps;
-  padding-top: 10%;
-}
-
-#from{
-    font-size: 125%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    grid-area: from;
-}
-#message{
-  font-size: 119%;
-  grid-area: note;  
-  margin-right: 7%;
-}
-
-#address {
-  font-size: 150%;
-  display: flex;
-  justify-content: center;
-  padding-top: 30%;
-  text-decoration: underline;
-  grid-area: test;
-  color:red;
-}
-
-
-#dear{
-  padding-top: 5%;
-  font-size: 200%;
-  grid-area: dear;
-
-}
-
-
-
+</body>
+</html>
