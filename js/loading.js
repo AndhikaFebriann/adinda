@@ -11,10 +11,10 @@ $(function(){
 
 
   $("#bash_photo").on({ mouseenter: function(){
-    $(this).attr('src','img/bash_o.png');
+    $(this).attr('src','img/open.png');
   },
   mouseleave: function(){
-    $(this).attr('src','img/bash.png');
+    $(this).attr('src','img/close.png');
   }
   });
   
