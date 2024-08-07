@@ -13,7 +13,7 @@ body {
     "note test";
   background-color: #f7f7f7;
   width: 850px;
-  height: 2610px;
+  height: 2020px;
   margin: 0 auto;
   margin-top: 5%;
   border-radius: 2%;
@@ -71,7 +71,8 @@ h1 {
 
 
 #dear{
-  padding-top: 0%;
+    margin: 0;
+    padding: 0;
   font-size: 200%;
   grid-area: dear;
 
