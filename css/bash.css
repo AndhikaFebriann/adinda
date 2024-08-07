@@ -1,6 +1,6 @@
 body {
   background-color: #800020;
-  font-family: 'Shadows Into Light'
+  font-family: 'Shadows Into Light', cursive;
 
   
 }
@@ -14,7 +14,7 @@ body {
     "note test";
   background-color: #f7f7f7;
   width: 850px;
-  height: 2080px;
+  height: 2020px;
   margin: 0 auto;
   margin-top: 5%;
   border-radius: 2%;
