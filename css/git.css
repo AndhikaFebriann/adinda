@@ -15,10 +15,10 @@ body {
   width: 850px;
   height: 2610px;
   margin: 0 auto;
-  margin-top: 0%;
+  margin-top: 5%;
   border-radius: 2%;
-  padding: 0%;
-  padding-bottom: 0%;
+  padding: 2%;
+  padding-bottom: 12%;
   box-shadow: .8em .8em 15px rgba(0,0,0,.3);
 
 }
