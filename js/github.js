@@ -9,5 +9,5 @@ function close_card() {
 var button=document.getElementById("front");
 button.addEventListener("click", open_card, false);
 
-var button=document.getElementById("inside");
+var button=document.getElementById("");
 button.addEventListener("click", close_card, false);
